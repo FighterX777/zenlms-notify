@@ -1,0 +1,75 @@
+{
+  "tests": {
+    "6a6895db3b215709901c8efe": {
+      "fixedStartAt": "2026-07-31T18:29:00Z",
+      "expiresAt": "2026-08-01T18:29:00Z",
+      "sentReminders": [
+        "new",
+        "missed"
+      ]
+    },
+    "6a683e6f3b215709901c8eee": {
+      "fixedStartAt": "2026-07-28T18:29:00Z",
+      "expiresAt": "2026-07-29T18:29:00Z",
+      "sentReminders": [
+        "new"
+      ]
+    },
+    "6a6449f868e086534af69573": {
+      "fixedStartAt": null,
+      "expiresAt": "2026-07-27T05:09:26.183Z",
+      "sentReminders": [
+        "new"
+      ]
+    },
+    "6a6057b554086230bc918c1f": {
+      "fixedStartAt": null,
+      "expiresAt": "2026-07-23T06:00:17.628Z",
+      "sentReminders": [
+        "new"
+      ]
+    },
+    "6a59f93b00820f07d8938a28": {
+      "fixedStartAt": "2026-07-17T18:29:00Z",
+      "expiresAt": "2026-07-18T18:29:00Z",
+      "sentReminders": [
+        "new"
+      ]
+    },
+    "6a56b5d400820f07d8938499": {
+      "fixedStartAt": null,
+      "expiresAt": "2026-07-17T04:50:29.404Z",
+      "sentReminders": [
+        "new"
+      ]
+    },
+    "6a50f0f0996235139ea07dbd": {
+      "fixedStartAt": "2026-07-11T04:30:00Z",
+      "expiresAt": "2026-07-11T18:29:00Z",
+      "sentReminders": [
+        "new"
+      ]
+    },
+    "6a4dd78593c8b71c4e3ee948": {
+      "fixedStartAt": null,
+      "expiresAt": "2026-07-10T13:10:43.601Z",
+      "sentReminders": [
+        "new"
+      ]
+    },
+    "6a489652b9f190216f1c0bbd": {
+      "fixedStartAt": null,
+      "expiresAt": "2026-07-07T07:21:59.97Z",
+      "sentReminders": [
+        "new"
+      ]
+    },
+    "6a44a5a1d49bff79a8a77041": {
+      "fixedStartAt": null,
+      "expiresAt": "2026-07-03T06:07:00Z",
+      "sentReminders": [
+        "new"
+      ]
+    }
+  }
+}

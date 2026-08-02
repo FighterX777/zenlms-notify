@@ -1,0 +1,25 @@
+{
+  "name": "zenlms-test-notifier",
+  "version": "1.0.0",
+  "description": "Automated ZenLMS test notifier via Telegram and GitHub Actions",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "dry-run": "DRY_RUN=true ts-node src/index.ts",
+    "debug": "DEBUG=true ts-node src/index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "axios-cookiejar-support": "^4.0.7",
+    "dotenv": "^16.4.5",
+    "tough-cookie": "^4.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/tough-cookie": "^4.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
