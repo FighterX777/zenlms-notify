@@ -6,7 +6,7 @@ Automated Telegram notifications for ZenLMS aptitude tests, running entirely on 
 
 ## How It Works
 
-A GitHub Actions workflow runs every 6 hours and:
+A GitHub Actions workflow runs every 2 hours and:
 
 1. Logs into ZenLMS using your credentials
 2. Fetches your proctored tests
