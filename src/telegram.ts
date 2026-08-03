@@ -5,12 +5,12 @@ const BOT_TOKEN = process.env.BOT_TOKEN!;
 const CHAT_ID = process.env.CHAT_ID!;
 const DRY_RUN = process.env.DRY_RUN === 'true';
 
-// Escape special characters for Telegram MarkdownV2
+// Escape all MarkdownV2 special chars except * which we use for bold
 function escape(text: string): string {
-  return text.replace(/[_*[\]()~`>#+\-=|{}.!]/g, '\\$&');
+  return text.replace(/[_[\]()~`>#+\-=|{}.!]/g, '\\$&');
 }
 
-// Convert simple *bold* and \n to MarkdownV2, escaping everything else
+// Wrap bold markers around already-escaped content
 function toMarkdownV2(message: string): string {
   return message
     .split(/\*([^*]+)\*/g)
