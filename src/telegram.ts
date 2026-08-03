@@ -15,6 +15,13 @@ export async function sendTelegramMessage(message: string): Promise<void> {
   const text = message.replace(/\*/g, '');
 
   const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
-  await axios.post(url, { chat_id: CHAT_ID, text });
-  log.success('Telegram message sent.');
+  try {
+    await axios.post(url, { chat_id: CHAT_ID, text });
+    log.success('Telegram message sent.');
+  } catch (err: unknown) {
+    if (axios.isAxiosError(err)) {
+      log.error(`Telegram error ${err.response?.status}: ${JSON.stringify(err.response?.data)}`);
+    }
+    throw err;
+  }
 }
