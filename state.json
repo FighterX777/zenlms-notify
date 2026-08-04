@@ -97,7 +97,8 @@
       "expiresAt": "2026-08-05T18:29:00Z",
       "sentReminders": [
         "new",
-        "start_6h"
+        "start_6h",
+        "start_1h"
       ]
     }
   }
