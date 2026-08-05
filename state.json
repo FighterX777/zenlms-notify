@@ -101,7 +101,8 @@
         "start_1h",
         "opened",
         "end_12h",
-        "end_6h"
+        "end_6h",
+        "end_1h"
       ]
     }
   }
