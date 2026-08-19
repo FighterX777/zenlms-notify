@@ -133,7 +133,8 @@
         "new",
         "start_6h",
         "start_1h",
-        "opened"
+        "opened",
+        "end_12h"
       ]
     }
   }
