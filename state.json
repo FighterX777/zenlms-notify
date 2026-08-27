@@ -162,6 +162,13 @@
         "end_12h",
         "end_6h"
       ]
+    },
+    "6a8ec59bbdee281112a536f4": {
+      "fixedStartAt": "2026-08-27T09:30:00Z",
+      "expiresAt": "2026-08-27T10:30:00Z",
+      "sentReminders": [
+        "new"
+      ]
     }
   }
 }
