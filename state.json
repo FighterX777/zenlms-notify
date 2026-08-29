@@ -151,7 +151,8 @@
       "sentReminders": [
         "new",
         "start_6h",
-        "opened"
+        "opened",
+        "end_12h"
       ]
     },
     "6a8d2e73d1038408c8caa6f1": {
