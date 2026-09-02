@@ -188,7 +188,8 @@
       "sentReminders": [
         "new",
         "start_6h",
-        "opened"
+        "opened",
+        "end_12h"
       ]
     }
   }
