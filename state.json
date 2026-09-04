@@ -179,7 +179,8 @@
       "fixedStartAt": "2026-09-04T18:29:00Z",
       "expiresAt": "2026-09-05T18:29:00Z",
       "sentReminders": [
-        "new"
+        "new",
+        "start_6h"
       ]
     },
     "6a950d9032591a2c53aecc62": {
